@@ -1,0 +1,95 @@
+.home {
+  padding: 7rem 8rem;
+  position: relative;
+  width: calc(100% - 250px);
+  left: 250px;
+  height: 100%;
+}
+
+.home-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home-green-head {
+  border: 1px dotted green;
+  display: inline;
+  color: green;
+  background: rgba(3, 68, 3, 0.194);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 14px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 200px;
+}
+
+.home-text-content h3 {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 600;
+  padding: 0.5rem 0rem;
+  line-height: 3rem;
+  display: inline-block;
+}
+
+.home-text-content > p {
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+
+.home-image-content {
+  width: 40%;
+}
+
+.home-image-content img {
+  width: 370px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+/* p {
+    color: #999);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+} */
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  display: inline-block;
+  margin: 2.5rem 0rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.home-buttons .home-cv-btn {
+  background-color: rgb(254, 95, 47);
+  color: white;
+  padding: 0.6rem 2.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-buttons .home-cv-btn:hover {
+  background-color: hsl(15, 83%, 66%);
+}
+
+.home-buttons .home-contact-btn {
+  color: white;
+  padding: 0.6rem 2.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #999);
+}

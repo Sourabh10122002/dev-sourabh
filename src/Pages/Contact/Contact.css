@@ -1,0 +1,138 @@
+.contact {
+  padding: 6rem 8rem 0rem 8rem;
+  position: relative;
+  width: calc(100% - 250px);
+  left: 250px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section {
+  align-content: center;
+  align-items: center;
+  background-color: #171717;
+  border-radius: 10px;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  height: 460px;
+  justify-content: space-between;
+  max-height: 460px;
+  overflow: hidden;
+  position: relative;
+}
+
+.form {
+  padding-left: 32px;
+}
+
+.form h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.form h2 span {
+  color: rgb(254, 95, 47);
+}
+
+.form p {
+  color: #999;
+  font-weight: 200;
+  line-height: 1.6em;
+  font-size: 16px;
+  padding: 1rem 0;
+}
+
+.form-st {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.form-upper-input {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.form-upper-input input {
+  appearance: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.4em;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  box-shadow: transparent 0px 0px 0px 1px inset;
+}
+
+.form-lower-input {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.form-lower-input textarea {
+  appearance: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.4em;
+  outline: none;
+  border: none;
+  min-height: 0px;
+  padding: 12px 16px;
+  resize: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: transparent 0px 0px 0px 1px inset;
+}
+
+.form-lower-input textarea:placeholder-shown {
+  font-family: "Manrope";
+}
+
+.submit-btn {
+  appearance: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.4em;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  background: rgb(254, 95, 47);
+  cursor: pointer;
+  color: #fff;
+  z-index: 1;
+  opacity: 1;
+  margin-top: 16px;
+}
+
+.form-img img {
+  display: block;
+  width: 460px;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}

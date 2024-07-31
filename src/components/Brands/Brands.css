@@ -1,0 +1,49 @@
+.brand {
+  padding: 5rem 8rem 5rem 8rem;
+  position: relative;
+  width: calc(100% - 250px);
+  left: 250px;
+}
+
+.brand h3 {
+  text-align: start;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.brand span {
+  color: rgb(254, 95, 47);
+}
+
+.brand-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 60px;
+}
+
+.brand-company {
+  display: flex;
+  gap: 10px;
+}
+
+.brand-company i {
+  color: rgb(254, 95, 47);
+}
+
+.brand-company p {
+  text-align: start;
+  color: #999;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.brand-company i {
+  text-align: start;
+  color: #999;
+  font-size: 1.6rem;
+  font-weight: 500;
+}

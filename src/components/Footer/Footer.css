@@ -1,0 +1,31 @@
+.footer {
+  padding: 6rem 8rem 2rem 8rem;
+  flex-flow: wrap;
+  font-family: "Noto Sans HK", sans-serif;
+  position: relative;
+  width: calc(100% - 250px);
+  left: 250px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0.5rem auto;
+}
+
+.footer-left span {
+  color: rgb(254, 95, 47);
+}
+
+.footer-right p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}

@@ -1,0 +1,87 @@
+.client-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: calc(100% - 250px);
+  left: 250px;
+  z-index: -11;
+}
+
+.ce2-p1-e2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.p1-e2-cntr {
+  /* box-shadow: inset 0px 0px 5px 2px #5b5b5b44; */
+  /* box-shadow: inset 0px 0px 5px 2px #5b5b5b44; */
+  border: 1px solid #3d3d3d;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  padding: 1rem;
+  width: 400px;
+  height: fit-content;
+  animation: scroller 44s linear infinite;
+}
+
+.client-head {
+  padding-top: 10px;
+  display: flex;
+  margin-top: 12px;
+  align-items: start;
+  justify-content: center;
+}
+
+.client-head img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.p1-e2-cntr > p {
+  color: #999;
+  font-size: 16px;
+  text-align: start;
+}
+
+#ce2-p1-e2::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes scroller {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
+
+.client-main-head h3 {
+  text-align: start;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.client-name h4 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.client-name p {
+  color: #999;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 18px;
+}
